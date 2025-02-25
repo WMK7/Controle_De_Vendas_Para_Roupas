@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PedidoCatalogoApp</string>
+    <string-array name="cores_array">
+        <item>Azul</item>
+        <item>Vermelho</item>
+        <item>Verde</item>
+        <item>Preto</item>
+        <item>Branco</item>
+    </string-array>
+    <string-array name="tamanhos_array">
+        <item>XG</item>
+        <item>GG</item>
+        <item>G</item>
+        <item>M</item>
+        <item>P</item>
+        <item>PP</item>
+    </string-array>
+    <string-array name="situacao_pagamento_array">
+        <item>Pago</item>
+        <item>Não Pago</item>
+    </string-array>
+    <color name="blue_light">#ADD8E6</color>
+    <color name="yellow_light">#FFFFE0</color>
+</resources>

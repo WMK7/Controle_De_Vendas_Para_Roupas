@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fundp2"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <EditText
+        android:id="@+id/etCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código da Roupa"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etNomeCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Cliente"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSituacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="#cebead"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#cebead"
+        app:cornerRadius="1dp"
+        android:text="Salvar Pedido" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#cebead"
+        app:cornerRadius="1dp"
+        android:text="Voltar" />
+</LinearLayout>

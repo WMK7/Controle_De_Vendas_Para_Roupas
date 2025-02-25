@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520772362057",
+    "project_id": "controledevendaspararoupas",
+    "storage_bucket": "controledevendaspararoupas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520772362057:android:3b94a87fb89a5e9af9c498",
+        "android_client_info": {
+          "package_name": "com.example.controle_de_vendas_para_roupas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjukm_pamOPLFT5b7Ck8e1a4z2Bx2mBZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
